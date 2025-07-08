@@ -15,7 +15,7 @@ if st.button("Generate my Roadmap"):
 
 import pandas as pd
 import numpy as np
-df = pd.read_csv("/content/drive/MyDrive/Book1.csv")
+df = pd.read_csv("Book1.csv")
 
 # Define a function to score each flow
 def compute_match_score(row, user_skills, user_interest, user_goal, user_hours):
